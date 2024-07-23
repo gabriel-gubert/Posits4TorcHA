@@ -6,7 +6,7 @@ from urllib.parse import urlparse, parse_qs
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-from PQTorcHA import Accel
+from Posits4TorcHA import Accel
 
 import argparse
 from argparse import ArgumentParser
