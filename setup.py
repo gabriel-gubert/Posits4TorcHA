@@ -5,7 +5,7 @@ from Cython.Build import cythonize
 import numpy as np
 
 setup(
-        name = 'PQTorcHA',
+        name = 'Posits4TorcHA',
         author = 'Gabriel Vitor Klaumann Gubert',
         author_email = 'gvkg97@gmail.com',
         maintainer = 'Gabriel Vitor Klaumann Gubert',
@@ -13,9 +13,9 @@ setup(
         ext_modules = cythonize(
             [
                 Extension(
-                    name = 'PQTorcHA', 
+                    name = 'Posits4TorcHA', 
                     sources = [
-                        'src/PQTorcHA.py'
+                        'src/Posits4TorcHA.py'
                     ], 
                     include_dirs = [
                         np.get_include()
