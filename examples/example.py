@@ -2,7 +2,7 @@ import sys
 
 import numpy as np
 
-from PQTorcHA import Accel
+from Posits4TorcHA import Accel
 
 in_channels = int(sys.argv[1])
 out_channels = int(sys.argv[2])
